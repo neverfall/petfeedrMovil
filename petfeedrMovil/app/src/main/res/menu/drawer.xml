@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/Cuenta"
+            android:checked="false"
+            android:icon="@drawable/ic_person_black"
+            android:title="Cuenta" />
+
+        <item
+            android:id="@+id/compra"
+            android:checked="false"
+            android:icon="@drawable/ic_shopping_cart_black"
+            android:title="Donde Comprar" />
+
+        <item
+            android:id="@+id/contacto"
+            android:checked="false"
+            android:icon="@drawable/ic_contact_phone_black"
+            android:title="Contacto" />
+
+
+        <item
+            android:id="@+id/soporte"
+            android:checked="false"
+            android:icon="@drawable/ic_headset_mic_black"
+            android:title="Soporte" />
+
+
+    </group>
+</menu>
